@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "name": "viljo",
+      "user": "2000",
+      "password": "viljo",
+      "repeatpassword": "viljo",
+      "id": 1
+    },
+    {
+      "name": "anik",
+      "user": "2000",
+      "password": "2000",
+      "repeatpassword": "2000",
+      "id": 2
+    },
+    {
+      "name": "rishi",
+      "user": "2000",
+      "password": "2000",
+      "repeatpassword": "2000",
+      "id": 3
+    },
+    {
+      "name": "gopika",
+      "user": "2000",
+      "password": "2000",
+      "repeatpassword": "2000",
+      "id": 4
+    },
+    {
+      "name": "ashana",
+      "user": "3000",
+      "password": "3000",
+      "repeatpassword": "3000",
+      "id": 5
+    },
+    {
+      "name": "viljo",
+      "user": "2005",
+      "password": "viljo",
+      "repeatpassword": "viljo",
+      "id": 6
+    },
+    {
+      "name": "roshan",
+      "user": "1998",
+      "password": "1998",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

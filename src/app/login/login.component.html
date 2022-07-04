@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1 class="login">Login</h1>
+                    <h6>please enter email & password</h6>
+                    <form>
+                        <form [formGroup]="loginForm" (ngSubmit)="login()" >
+                            <div class="mb-3" >
+                              <label for="exampleInputEmail1" class="form-label">User ID</label>
+                              <input formControlName="user" type="user" class="form-control" id="exampleInputEmail1" aria-describedby="userHelp" placeholder="User ID" >
+                              <span class="text-danger" *ngIf="formErrors.user">
+                                {{formErrors.user}}
+                              </span>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
+                              <span class="text-danger" *ngIf="formErrors.password">
+                                {{formErrors.password}}
+                              </span>
+                            </div>
+                            <button type="submit" (click)="login()" class="btn btn-primary">Login</button>
+                          </form>
+                          <button class="btn btn-roundeprimary" routerLink="/register">New user ? Click to sign up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
